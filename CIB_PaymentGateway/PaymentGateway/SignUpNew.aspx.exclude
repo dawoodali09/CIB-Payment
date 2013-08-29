@@ -1,0 +1,415 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="SignUpNew.aspx.vb" Inherits="SignUpNew" Debug="true" %>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0192)https://www.paypal.com/in/cgi-bin/webscr -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><HTML 
+lang="en"><HEAD>
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<TITLE> Premier Account Sign Up – CIB Finance</TITLE>
+<META name="description" content="PayPal is the safer, easier way to pay online without revealing your credit card number.">
+<META content="IE=9" http-equiv="X-UA-Compatible">
+<LINK rel="stylesheet" type="text/css" href="css/global.css" media="screen">
+<LINK rel="stylesheet" type="text/css" href="css/flowConsumerOnboarding.css">
+<LINK rel="stylesheet" type="text/css" href="css/passwordMeter.css">
+<LINK rel="stylesheet" type="text/css" href="css/country.css">
+<LINK rel="stylesheet" type="text/css" href="css/print.css" media="print">
+<STYLE type="text/css"></STYLE>
+
+<STYLE id="antiClickjack" type="text/css">body{display:none !important;}</STYLE>
+
+<SCRIPT type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+			</SCRIPT>
+
+<SCRIPT type="text/javascript" src="css/global.js"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 9.00.8112.16457"></HEAD>
+<BODY>
+<DIV id="page" class="onboarding signup">
+<DIV id="header" class="notab">
+<H1><A href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_home"><IMG border="0" alt="PayPal" src="css/paypal_logo.gif"></A></H1>
+<DIV id="navPrimary" class="empty"></DIV></DIV>
+<DIV id="content">
+<DIV id="headline">
+<DIV class="secure"><A onclick="PAYPAL.core.openWindow(event, {size: 'm'})" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=xpt/Marketing/popup/WaxAboutPaypal-outside&amp;justSecure=true" target="_blank">Secure</A></DIV>
+<H2>Enter your information</H2>
+<DIV></DIV></DIV>
+<DIV id="messageBox"></DIV>
+<DIV id="main">
+<DIV class="layout1"><INPUT id="intlCountryCode" name="intlCountryCode" value="IN" type="hidden">
+<INPUT id="languageCode" name="languageCode" value="en_GB" type="hidden">
+<DIV id="meter_tag" class="metertip hide">
+<H3 id="pwdH" class="show gray">Password tips</H3>
+<DIV id="metercontainer" class="hide">
+<DIV id="meter1" class="meter"></DIV><SPAN id="pwdres"></SPAN></DIV>
+<UL id="meterul" class="small">
+  <LI id="minChars">Use 8-20 characters.</LI>
+  <LI id="notEmail">Don't use your name or email address.</LI>
+  <LI id="mixAll">Use a mix of upper-case and lower-case letters, numbers and 
+  symbols.</LI>
+  <LI id="noGuess">Make your password hard to guess – even for a family member 
+  or close friend.</LI></UL><IMG id="meterknob" border="0" alt="" src="images/leftknob.png"></DIV>
+<FORM runat="server" id="signup_form" class="safeSubmit multiplesubmitform" method="post" name="signup_form">
+<FIELDSET><LEGEND class="accessAid">Sign-up Form</LEGEND><INPUT name="cmd" 
+value="_flow" type="hidden"><INPUT id="CONTEXT_CGI_VAR" name="CONTEXT" value="X3-7SZn2ExXucINxlliZ_05NdFsrIIpaV9TcRYNLL_GiOwm9XgEZzWKQeV0" 
+type="hidden">
+<P>Please fill in all fields.</P>
+<FIELDSET class="accountCredentials"><LEGEND class="accessAid">Email Password 
+field</LEGEND>
+<DIV>
+<P class="group"><LABEL for="email">Email address<SPAN class="help">You will use 
+this to log in to PayPal</SPAN></LABEL><SPAN class="field"><INPUT runat="server" id="email" class="large" name="email" type="text"></SPAN></P>
+<P class="group"><LABEL for="password">Choose a password</LABEL><SPAN class="field"><INPUT 
+id="password" class="large" name="password" maxLength="20" type="password" 
+autocomplete="off"></SPAN></P>
+<P class="group"><LABEL for="retype_password">Re-enter password</LABEL><SPAN 
+class="field"><INPUT id="retype_password" class="large" name="retype_password" 
+maxLength="20" type="password" autocomplete="off"></SPAN></P></DIV></FIELDSET>
+<FIELDSET class=" nameFields"><LEGEND class="accessAid"><SPAN 
+class="label">First name and Middle name</SPAN></LEGEND>
+<DIV>
+<P class="group"><LABEL for="first_name"><SPAN class="labelText">First name<SPAN 
+class="help">Please enter first name as mentioned on your PAN 
+card.</SPAN></SPAN></LABEL><SPAN class="field"><INPUT id="first_name" class="large" 
+name="first_name" type="text"></SPAN></P>
+<P class="group"><LABEL for="middle_initial"><SPAN class="labelText">Middle 
+name<SPAN class="optional"> (optional) </SPAN><SPAN class="help">Please enter 
+middle name as mentioned on your PAN card.</SPAN></SPAN></LABEL><SPAN class="field"><INPUT 
+id="middle_initial" class="large" name="middle_initial" type="text"></SPAN></P>
+<P class="group group cleared"><LABEL for="last_name"><SPAN 
+class="labelText">Last name<SPAN class="help">Please enter last name as 
+mentioned on your PAN card.</SPAN></SPAN></LABEL><SPAN class="field"><INPUT id="last_name" 
+class="large" name="last_name" type="text"></SPAN></P></DIV></FIELDSET>
+<DIV id="dobWrapper">
+<FIELDSET class="multi"><LEGEND class="accessAid">Date of birth</LEGEND><SPAN 
+class="labels"><SPAN class="label"><SPAN>Date of birth</SPAN></SPAN><SPAN class="autoTooltip" 
+title=""></SPAN></SPAN><SPAN class="help"></SPAN>
+<DIV class="fields"><SPAN>
+<P class="group first help"><LABEL class="accessAid" for="birthdate_b"><SPAN 
+class="labelText">Day</SPAN></LABEL><SPAN class="help">dd</SPAN><SPAN class="field restricted"><INPUT 
+id="birthdate_b" class="restricted xsmall" name="birthdate_b" maxLength="2" 
+size="2" type="text" autocomplete="off">&nbsp;/<BR></SPAN></P>
+<P class="group help"><LABEL class="accessAid" for="birthdate_a"><SPAN class="labelText">Month</SPAN></LABEL><SPAN 
+class="help">mm</SPAN><SPAN class="field restricted"><INPUT id="birthdate_a" 
+class="restricted xsmall" name="birthdate_a" maxLength="2" size="2" type="text" 
+autocomplete="off">&nbsp;/<BR></SPAN></P>
+<P class="group help"><LABEL class="accessAid" for="birthdate_c"><SPAN class="labelText">Year</SPAN></LABEL><SPAN 
+class="help">yyyy</SPAN><SPAN class="field restricted"><INPUT id="birthdate_c" 
+class="restricted" name="birthdate_c" maxLength="4" size="4" type="text" 
+autocomplete="off"></SPAN></P></SPAN></DIV></FIELDSET></DIV>
+<P class="group"><LABEL for="citizenship"><SPAN 
+class="labelText">Nationality</SPAN></LABEL><SPAN class="field"><LABEL class="accessAid" 
+for="citizenship">Select a country or region</LABEL>
+<SCRIPT type="text/javascript">
+<!--    // hide from JavaScript-challenged browsers
+    function countryInList(countryCode, countryCodeList) {
+        return (countryCodeList.indexOf(countryCode, 0) >= 0);
+    }
+	// done hiding -->
+</SCRIPT>
+<INPUT name="refresh_country_code" value="0" type="hidden">
+<SCRIPT type="text/javascript">
+    var currVal = '';
+    function getValue(ele) {
+        currVal = ele.value;
+    }
+    function refreshCountry(ele, refresh) {
+        var newVal = ele.value;
+        for (i = 0; i < ele.form.elements.length; i++) {
+            if (ele.form.elements[i].name == 'refresh_country_code') {
+                if (currVal != newVal) {
+                    ele.form.elements[i].value = '1';
+                }
+            }
+        }
+        if (currVal != newVal) {
+            ele.form.submit();
+        }
+    }
+</SCRIPT>
+<SELECT id="citizenship" name="citizenship"><OPTION value="">-- Choose a 
+  Country --</OPTION><OPTION selected="" value="IN">India</OPTION><OPTION value="AL">Albania</OPTION><OPTION 
+  value="DZ">Algeria</OPTION><OPTION value="AD">Andorra</OPTION><OPTION value="AO">Angola</OPTION><OPTION 
+  value="AI">Anguilla</OPTION><OPTION value="AG">Antigua and 
+  Barbuda</OPTION><OPTION value="AR">Argentina</OPTION><OPTION 
+  value="AM">Armenia</OPTION><OPTION value="AW">Aruba</OPTION><OPTION 
+  value="AU">Australia</OPTION><OPTION value="AT">Austria</OPTION><OPTION value="AZ">Azerbaijan 
+  Republic</OPTION><OPTION value="BS">Bahamas</OPTION><OPTION 
+  value="BH">Bahrain</OPTION><OPTION value="BB">Barbados</OPTION><OPTION value="BE">Belgium</OPTION><OPTION 
+  value="BZ">Belize</OPTION><OPTION value="BJ">Benin</OPTION><OPTION 
+  value="BM">Bermuda</OPTION><OPTION value="BT">Bhutan</OPTION><OPTION value="BO">Bolivia</OPTION><OPTION 
+  value="BA">Bosnia and Herzegovina</OPTION><OPTION 
+  value="BW">Botswana</OPTION><OPTION value="BR">Brazil</OPTION><OPTION value="BN">Brunei</OPTION><OPTION 
+  value="BG">Bulgaria</OPTION><OPTION value="BF">Burkina Faso</OPTION><OPTION 
+  value="BI">Burundi</OPTION><OPTION value="KH">Cambodia</OPTION><OPTION value="CA">Canada</OPTION><OPTION 
+  value="CV">Cape Verde</OPTION><OPTION value="KY">Cayman 
+  Islands</OPTION><OPTION value="TD">Chad</OPTION><OPTION 
+  value="CL">Chile</OPTION><OPTION value="C2">China</OPTION><OPTION 
+  value="CO">Colombia</OPTION><OPTION value="KM">Comoros</OPTION><OPTION value="CK">Cook 
+  Islands</OPTION><OPTION value="CR">Costa Rica</OPTION><OPTION 
+  value="HR">Croatia</OPTION><OPTION value="CY">Cyprus</OPTION><OPTION value="CZ">Czech 
+  Republic</OPTION><OPTION value="CD">Democratic Republic of the 
+  Congo</OPTION><OPTION value="DK">Denmark</OPTION><OPTION 
+  value="DJ">Djibouti</OPTION><OPTION value="DM">Dominica</OPTION><OPTION value="DO">Dominican 
+  Republic</OPTION><OPTION value="EC">Ecuador</OPTION><OPTION 
+  value="EG">Egypt</OPTION><OPTION value="SV">El Salvador</OPTION><OPTION value="ER">Eritrea</OPTION><OPTION 
+  value="EE">Estonia</OPTION><OPTION value="ET">Ethiopia</OPTION><OPTION value="FK">Falkland 
+  Islands</OPTION><OPTION value="FO">Faroe Islands</OPTION><OPTION 
+  value="FJ">Fiji</OPTION><OPTION value="FI">Finland</OPTION><OPTION 
+  value="FR">France</OPTION><OPTION value="GF">French Guiana</OPTION><OPTION 
+  value="PF">French Polynesia</OPTION><OPTION value="GA">Gabon 
+  Republic</OPTION><OPTION value="GM">Gambia</OPTION><OPTION 
+  value="GE">Georgia</OPTION><OPTION value="DE">Germany</OPTION><OPTION value="GI">Gibraltar</OPTION><OPTION 
+  value="GR">Greece</OPTION><OPTION value="GL">Greenland</OPTION><OPTION value="GD">Grenada</OPTION><OPTION 
+  value="GP">Guadeloupe</OPTION><OPTION value="GT">Guatemala</OPTION><OPTION 
+  value="GN">Guinea</OPTION><OPTION value="GW">Guinea Bissau</OPTION><OPTION 
+  value="GY">Guyana</OPTION><OPTION value="HN">Honduras</OPTION><OPTION value="HK">Hong 
+  Kong</OPTION><OPTION value="HU">Hungary</OPTION><OPTION 
+  value="IS">Iceland</OPTION><OPTION value="ID">Indonesia</OPTION><OPTION value="IE">Ireland</OPTION><OPTION 
+  value="IL">Israel</OPTION><OPTION value="IT">Italy</OPTION><OPTION 
+  value="JM">Jamaica</OPTION><OPTION value="JP">Japan</OPTION><OPTION 
+  value="JO">Jordan</OPTION><OPTION value="KZ">Kazakhstan</OPTION><OPTION value="KE">Kenya</OPTION><OPTION 
+  value="KI">Kiribati</OPTION><OPTION value="KW">Kuwait</OPTION><OPTION value="KG">Kyrgyzstan</OPTION><OPTION 
+  value="LA">Laos</OPTION><OPTION value="LV">Latvia</OPTION><OPTION 
+  value="LS">Lesotho</OPTION><OPTION value="LI">Liechtenstein</OPTION><OPTION 
+  value="LT">Lithuania</OPTION><OPTION value="LU">Luxembourg</OPTION><OPTION 
+  value="MG">Madagascar</OPTION><OPTION value="MW">Malawi</OPTION><OPTION value="MY">Malaysia</OPTION><OPTION 
+  value="MV">Maldives</OPTION><OPTION value="ML">Mali</OPTION><OPTION 
+  value="MT">Malta</OPTION><OPTION value="MH">Marshall Islands</OPTION><OPTION 
+  value="MQ">Martinique</OPTION><OPTION value="MR">Mauritania</OPTION><OPTION 
+  value="MU">Mauritius</OPTION><OPTION value="YT">Mayotte</OPTION><OPTION value="MX">Mexico</OPTION><OPTION 
+  value="FM">Micronesia</OPTION><OPTION value="MN">Mongolia</OPTION><OPTION 
+  value="MS">Montserrat</OPTION><OPTION value="MA">Morocco</OPTION><OPTION 
+  value="MZ">Mozambique</OPTION><OPTION value="NA">Namibia</OPTION><OPTION 
+  value="NR">Nauru</OPTION><OPTION value="NP">Nepal</OPTION><OPTION 
+  value="NL">Netherlands</OPTION><OPTION value="AN">Netherlands 
+  Antilles</OPTION><OPTION value="NC">New Caledonia</OPTION><OPTION 
+  value="NZ">New Zealand</OPTION><OPTION value="NI">Nicaragua</OPTION><OPTION 
+  value="NE">Niger</OPTION><OPTION value="NU">Niue</OPTION><OPTION 
+  value="NF">Norfolk Island</OPTION><OPTION value="NO">Norway</OPTION><OPTION 
+  value="OM">Oman</OPTION><OPTION value="PW">Palau</OPTION><OPTION 
+  value="PA">Panama</OPTION><OPTION value="PG">Papua New Guinea</OPTION><OPTION 
+  value="PE">Peru</OPTION><OPTION value="PH">Philippines</OPTION><OPTION value="PN">Pitcairn 
+  Islands</OPTION><OPTION value="PL">Poland</OPTION><OPTION 
+  value="PT">Portugal</OPTION><OPTION value="QA">Qatar</OPTION><OPTION value="CG">Republic 
+  of the Congo</OPTION><OPTION value="RE">Reunion</OPTION><OPTION 
+  value="RO">Romania</OPTION><OPTION value="RU">Russia</OPTION><OPTION value="RW">Rwanda</OPTION><OPTION 
+  value="KN">Saint Kitts and Nevis Anguilla</OPTION><OPTION value="PM">Saint 
+  Pierre and Miquelon</OPTION><OPTION value="VC">Saint Vincent and 
+  Grenadines</OPTION><OPTION value="WS">Samoa</OPTION><OPTION value="SM">San 
+  Marino</OPTION><OPTION value="ST">São Tomé and Príncipe</OPTION><OPTION value="SA">Saudi 
+  Arabia</OPTION><OPTION value="SN">Senegal</OPTION><OPTION 
+  value="RS">Serbia</OPTION><OPTION value="SC">Seychelles</OPTION><OPTION value="SL">Sierra 
+  Leone</OPTION><OPTION value="SG">Singapore</OPTION><OPTION 
+  value="SK">Slovakia</OPTION><OPTION value="SI">Slovenia</OPTION><OPTION value="SB">Solomon 
+  Islands</OPTION><OPTION value="SO">Somalia</OPTION><OPTION value="ZA">South 
+  Africa</OPTION><OPTION value="KR">South Korea</OPTION><OPTION 
+  value="ES">Spain</OPTION><OPTION value="LK">Sri Lanka</OPTION><OPTION value="SH">St. 
+  Helena</OPTION><OPTION value="LC">St. Lucia</OPTION><OPTION 
+  value="SR">Suriname</OPTION><OPTION value="SJ">Svalbard and Jan Mayen 
+  Islands</OPTION><OPTION value="SZ">Swaziland</OPTION><OPTION 
+  value="SE">Sweden</OPTION><OPTION value="CH">Switzerland</OPTION><OPTION 
+  value="TW">Taiwan</OPTION><OPTION value="TJ">Tajikistan</OPTION><OPTION value="TZ">Tanzania</OPTION><OPTION 
+  value="TH">Thailand</OPTION><OPTION value="TG">Togo</OPTION><OPTION 
+  value="TO">Tonga</OPTION><OPTION value="TT">Trinidad and 
+  Tobago</OPTION><OPTION value="TN">Tunisia</OPTION><OPTION 
+  value="TR">Turkey</OPTION><OPTION value="TM">Turkmenistan</OPTION><OPTION 
+  value="TC">Turks and Caicos Islands</OPTION><OPTION 
+  value="TV">Tuvalu</OPTION><OPTION value="UG">Uganda</OPTION><OPTION 
+  value="UA">Ukraine</OPTION><OPTION value="AE">United Arab 
+  Emirates</OPTION><OPTION value="GB">United Kingdom</OPTION><OPTION 
+  value="US">United States</OPTION><OPTION value="UY">Uruguay</OPTION><OPTION 
+  value="VU">Vanuatu</OPTION><OPTION value="VA">Vatican City 
+  State</OPTION><OPTION value="VE">Venezuela</OPTION><OPTION 
+  value="VN">Vietnam</OPTION><OPTION value="VG">Virgin Islands 
+  (British)</OPTION><OPTION value="WF">Wallis and Futuna Islands</OPTION><OPTION 
+  value="YE">Yemen</OPTION><OPTION value="ZM">Zambia</OPTION></SELECT></SPAN></P>
+<P class="group"><LABEL for="tax_id"><SPAN class="labelText">PAN &nbsp;<SPAN 
+class="small"><A onclick="PAYPAL.core.openWindow(event,{size:'l'});" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=xpt/Marketing/popup/LearnMorePanCardPopup-outside" 
+target="_blank">Learn more</A></SPAN><SPAN class="help">(Enter PAN like this 
+AAAAA9999A).</SPAN></SPAN></LABEL><SPAN class="field"><INPUT class="large" name="tax_id" 
+maxLength="10" type="text" autocomplete="off"></SPAN></P>
+<DIV class="addrWrapper">
+<P class="group"><LABEL for="address1"><SPAN class="labelText">Address line 
+1</SPAN></LABEL><SPAN class="field confidential"><INPUT id="address1" class="confidential text large" 
+name="address1" type="text"></SPAN></P>
+<P class="group"><LABEL for="address2"><SPAN class="labelText">Address line 
+2</SPAN> <SPAN class="optional">(optional)</SPAN></LABEL><SPAN class="field confidential"><INPUT 
+id="address2" class="confidential text large" name="address2" 
+type="text"></SPAN></P>
+<P class="group"><LABEL for="city"><SPAN 
+class="labelText">Town/City</SPAN></LABEL><SPAN 
+class="field confidential"><INPUT id="city" class="confidential text large" 
+name="city" maxLength="40" type="text"></SPAN></P>
+<P class="group"><LABEL for="state"><SPAN 
+class="labelText">State</SPAN></LABEL><SPAN class="field confidential"><SELECT 
+id="state" class="confidential" name="state"><OPTION selected="" 
+  value="">Select State</OPTION><OPTION 
+  value="Andaman and Nicobar Islands">Andaman and Nicobar 
+  Islands</OPTION><OPTION value="Andhra Pradesh">Andhra Pradesh</OPTION><OPTION 
+  value="Arunachal Pradesh">Arunachal Pradesh</OPTION><OPTION 
+  value="Assam">Assam</OPTION><OPTION value="Bihar">Bihar</OPTION><OPTION value="Chandigarh">Chandigarh</OPTION><OPTION 
+  value="Chhattisgarh">Chhattisgarh</OPTION><OPTION value="Dadra and Nagar Haveli">Dadra 
+  and Nagar Haveli</OPTION><OPTION value="Daman and Diu">Daman and 
+  Diu</OPTION><OPTION value="NCT-Delhi">NCT-Delhi</OPTION><OPTION 
+  value="Goa">Goa</OPTION><OPTION value="Gujarat">Gujarat</OPTION><OPTION value="Haryana">Haryana</OPTION><OPTION 
+  value="Himachal Pradesh">Himachal Pradesh</OPTION><OPTION value="Jammu and Kashmir">Jammu 
+  and Kashmir</OPTION><OPTION value="Jharkhand">Jharkhand</OPTION><OPTION value="Karnataka">Karnataka</OPTION><OPTION 
+  value="Kerala">Kerala</OPTION><OPTION 
+  value="Lakshadweep">Lakshadweep</OPTION><OPTION value="Madhya Pradesh">Madhya 
+  Pradesh</OPTION><OPTION value="Maharashtra">Maharashtra</OPTION><OPTION value="Manipur">Manipur</OPTION><OPTION 
+  value="Meghalaya">Meghalaya</OPTION><OPTION 
+  value="Mizoram">Mizoram</OPTION><OPTION 
+  value="Nagaland">Nagaland</OPTION><OPTION 
+  value="Orissa">Orissa</OPTION><OPTION 
+  value="Puducherry">Puducherry</OPTION><OPTION 
+  value="Punjab">Punjab</OPTION><OPTION 
+  value="Rajasthan">Rajasthan</OPTION><OPTION 
+  value="Sikkim">Sikkim</OPTION><OPTION value="Tamil Nadu">Tamil 
+  Nadu</OPTION><OPTION value="Tripura">Tripura</OPTION><OPTION value="Uttar Pradesh">Uttar 
+  Pradesh</OPTION><OPTION value="Uttarakhand">Uttarakhand</OPTION><OPTION value="West Bengal">West 
+  Bengal</OPTION></SELECT></SPAN></P>
+<P class="group"><LABEL for="zip"><SPAN class="labelText">PIN 
+code</SPAN></LABEL><SPAN class="field confidential"><INPUT id="zip" class="confidential text large" 
+name="zip" type="text"></SPAN></P></DIV>
+<P class="group"><LABEL for="M_PhoneNumber"><SPAN class="labelText">Mobile 
+Number<SPAN class="autoTooltip" title="This number will help us to contact you in case there is a problem with your account or purchase. Unless you give us permission, we do not share your number with telemarketers and store it in a secure database.">Why 
+is this needed?</SPAN><SPAN class="help">(Enter mobile number like this 
+98xxx12345)</SPAN></SPAN></LABEL><SPAN 
+class="field"><SPAN>(+91)&nbsp;</SPAN><INPUT id="M_PhoneNumber" class="large" 
+name="M_PhoneNumber" type="text" autocomplete="off"></SPAN></P>
+<FIELDSET class="subform"><LEGEND class="accessAid">Link a credit card</LEGEND>
+<P class="checkboxparagraph"><INPUT id="cc_checkbox_selection" class="checkbox" 
+name="cc_checkbox_selection" value="checked" CHECKED="" type="checkbox"><LABEL 
+for="cc_checkbox_selection"> Securely store my credit/debit card details with 
+PayPal for a convenient shopping experience (recommended)</LABEL></P>
+<P class="group"><LABEL id="lblccNumber" for="cc_number">Credit/debit card 
+number</LABEL><SPAN class="field"><INPUT id="cc_number" class="large" name="cc_number" 
+maxLength="24" type="text" autocomplete="off"></SPAN><SPAN id="ccicons" class="blockDisp"><INPUT 
+id="visa" name="credit_card_type" value="V" type="radio"><IMG id="pm-visa" 
+border="0" alt="Visa" src="images/visa.gif"><INPUT 
+id="mastercard" name="credit_card_type" value="M" type="radio"><IMG id="pm-mastercard" 
+border="0" alt="MasterCard" src="images/mastercard.gif"><INPUT 
+id="discover" name="credit_card_type" value="D" type="radio"><IMG id="pm-discover" 
+border="0" alt="Discover" src="images/discover.gif"><INPUT 
+id="amex" name="credit_card_type" value="A" type="radio"><IMG id="pm-amex" 
+border="0" alt="Amex" src="images/amex.gif"></SPAN></P>
+<DIV class="wrapper">
+<DIV class="expDateCont">
+<FIELDSET id="fieldrowExpDate" class="multi fieldsetcc"><LEGEND><SPAN id="lblExpdate" 
+class="label">Expiry date</SPAN></LEGEND>
+<DIV>
+<P class="group"><LABEL class="accessAid" for="expdate_month">Month</LABEL><SPAN 
+class="field"><SELECT id="expdate_month" name="expdate_month"><OPTION 
+  selected="" value="">--Month--</OPTION><OPTION value="01">01 
+  (Jan)</OPTION><OPTION value="02">02 (Feb)</OPTION><OPTION value="03">03 
+  (Mar)</OPTION><OPTION value="04">04 (Apr)</OPTION><OPTION value="05">05 
+  (May)</OPTION><OPTION value="06">06 (Jun)</OPTION><OPTION value="07">07 
+  (Jul)</OPTION><OPTION value="08">08 (Aug)</OPTION><OPTION value="09">09 
+  (Sep)</OPTION><OPTION value="10">10 (Oct)</OPTION><OPTION value="11">11 
+  (Nov)</OPTION><OPTION value="12">12 (Dec)</OPTION></SELECT></SPAN></P>
+<P class="group"><LABEL class="accessAid" for="expdate_year">Year</LABEL><SPAN 
+class="field"><SELECT id="expdate_year" name="expdate_year"><OPTION selected="" 
+  value="">--Year--</OPTION><OPTION value="2013">2013</OPTION><OPTION value="2014">2014</OPTION><OPTION 
+  value="2015">2015</OPTION><OPTION value="2016">2016</OPTION><OPTION value="2017">2017</OPTION><OPTION 
+  value="2018">2018</OPTION><OPTION value="2019">2019</OPTION><OPTION value="2020">2020</OPTION><OPTION 
+  value="2021">2021</OPTION><OPTION value="2022">2022</OPTION><OPTION value="2023">2023</OPTION><OPTION 
+  value="2024">2024</OPTION><OPTION value="2025">2025</OPTION><OPTION value="2026">2026</OPTION><OPTION 
+  value="2027">2027</OPTION><OPTION value="2028">2028</OPTION><OPTION value="2029">2029</OPTION><OPTION 
+  value="2030">2030</OPTION><OPTION value="2031">2031</OPTION><OPTION value="2032">2032</OPTION><OPTION 
+  value="2033">2033</OPTION></SELECT></SPAN></P></DIV></FIELDSET>
+<P id="paraCSC" class="CSCPara"><LABEL id="lblCSC" for="cvv2_number">CVV<A 
+class="balloonControl" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_flow&amp;SESSION=e_KB_8cbiPTHXbYg4De8lnzFA2vY8NAb-OvGd5OXPK7EPOwZ_hwKFOEE0AS&amp;dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d#CVVInfo">What's 
+this?</A></LABEL><SPAN class="field"><INPUT id="cvv2_number" class="small" name="cvv2_number" 
+maxLength="4" type="text" autocomplete="off"></SPAN></P></DIV>
+<DIV id="CVVInfo" class="balloonCallout">
+<P>It's the three-digit number printed on the back of your card.For American 
+Express, it's the four-digit number on the front.</P><IMG border="0" alt="" src="images/scr_card_223x138.jpg"></DIV></DIV></FIELDSET>Consumer 
+advisory – The PayPal™ payment service is regarded as a stored value facility 
+under Singapore law. PayPal Pte. Ltd., the Holder of the PayPal™ stored value 
+facility, does not require the approval of the Monetary Authority of Singapore. 
+Consumers (users) are advised to read the terms and conditions carefully.
+<P>By clicking the button, I agree to the PayPal <A onclick="PAYPAL.core.openWindow(event, {width: 640, height: 300, name: '_blank', location: 0,scrollbar: 0, toolbar: 0, resizable: 1 })" 
+href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/gen/ua/ua_pop-outside&amp;popup=1" 
+target="_blank">User Agreement</A></P>
+<P class="buttons"><asp:Button runat="server" id="btnCreateAcc" class="button primary" Text="Agree and Create Account" type="submit"></asp:Button></P></FIELDSET><INPUT name="auth" value="AzP.a.B1fKW4wvtXoLHc.LrQjo00SJxVZz4BpMOLKxAVitq0MQhmMF7sLEKaBPwPw" type="hidden"><INPUT 
+name="form_charset" value="UTF-8" type="hidden"></FORM><IMG border="0" alt="" 
+src="images/3484-16283-2054-72.gif" 
+width="1" height="1"></DIV></DIV></DIV>
+<DIV id="footer" role="contentinfo">
+<UL>
+  <LI class="last"><A href="https://www.paypal.com/in/cgi-bin/helpscr?cmd=_help&amp;t=escalateTab">Contact 
+  Us</A></LI>
+  <LI class="last"><!-- OnlineOpinionF3cS v3.0-->
+<SCRIPT type="text/javascript" src="Scripts/oo_engine.js"></SCRIPT>
+
+<SCRIPT type="text/javascript">    custom_var = escape('zhsdectP%2fgdg1DljtO6J%2bSwghgVqR0hGBnwdCd4O6efXV%2fu3GSY%2f9w%3d%3d_13fbed4b4c2') + '|'; custom_var += 'Unknown|main:onbrd:signup::start|IN|en_GB|Unknown|Unknown'; // Paypal Custom URL class
+    var PayPalURL = function (pagename) {
+        this.language_country_code = "en_GB";
+        this.dd = "IN";
+        this.nn = "00"; this.pagename = escape(pagename.replace(/\s|\//g, "_"));
+        this.to_str = function () {
+
+            return "https://" + this.dd + ".paypal.com/" + this.language_country_code + "/" + this.nn + "/" + this.pagename + ".page"
+        }
+    }
+    var paypal_url = new PayPalURL("main:onbrd:signup::start");
+    // Below gives you the ability to change the other properties after the object is created
+    //paypal_url.dd="ES";
+    //paypal_url.nn="01";
+
+    _ht = paypal_url.to_str();
+    var _ht_temp = _ht;
+    var _hr_temp = _hr;
+    custom_var = custom_var + "|Unknown|Unknown"; var custom_var_temp = custom_var;</SCRIPT>
+  </LI></UL>
+<P id="legal">Copyright © 1999-2013 PayPal. All rights reserved.</P>Consumer 
+advisory- PayPal Pte. Ltd., the holder of PayPal’s stored value<BR>facility, 
+does not require the approval of the Monetary Authority of Singapore.<BR>Users 
+are advised to read the <A href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/gen/ua/ua-outside">terms 
+and conditions</A> carefully.</DIV>
+<DIV id="navFull" role="navigation">
+<UL>
+  <LI class="active"><A class="scTrack:SRD:Nav:BI27" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_home-general&amp;nav=0">Home</A>
+  <UL>
+    <LI class="active"><A class="scTrack:SRD:Nav:BI28" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_home-general&amp;nav=0.0">Get 
+    Started</A>
+    <UL>
+      <LI><A class="scTrack:SRD:Nav:BI29" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/auc/new_ebay_buyer_intro-outside&amp;nav=0.0.0">Why 
+      Use PayPal?</A></LI>
+      <LI><A class="scTrack:SRD:Nav:BI30" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=xpt/Marketing/general/NewConsumerWorks-outside&amp;nav=0.0.1">How 
+      It Works</A></LI>
+      <LI><A class="scTrack:SRD:Nav:BI31" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=xpt/Marketing/general/NewConsumerSafe-outside&amp;nav=0.0.2">Where 
+      to Shop With It</A></LI></UL></LI>
+    <LI><A class="scTrack:SRD:Nav:BI32" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_send-money&amp;nav=0.1">Send 
+    Payment</A>
+    <UL>
+      <LI><A class="scTrack:SRD:Nav:BI33" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_send-money&amp;nav=0.1.0">Send 
+      Payment Online</A></LI></UL></LI>
+    <LI><A class="scTrack:SRD:Nav:BI35" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/req/index-outside&amp;nav=0.2">Request 
+    Payment</A>
+    <UL>
+      <LI><A class="scTrack:SRD:Nav:BI36" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/req/index-outside&amp;nav=0.2.0">Request 
+      Payment</A></LI>
+      <LI><A class="scTrack:SRD:Nav:BI37" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=p/sell/invoicing_intro-outside&amp;nav=0.2.1">Send 
+      an Invoice</A></LI></UL></LI>
+    <LI><A class="scTrack:SRD:Nav:BI38" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_auction-outside&amp;nav=0.3">Sell 
+    on eBay</A></LI>
+    <LI><A class="scTrack:SRD:Nav:BI39" 
+    href="https://www.paypal.com/developer">Developers</A></LI></UL></LI>
+  <LI><A class="scTrack:SRD:Nav:BI41" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_home-customer&amp;nav=1">Personal</A></LI>
+  <LI><A class="scTrack:SRD:Nav:BI72" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_home-merchant&amp;nav=2">Business</A></LI>
+  <LI><A class="scTrack:SRD:Nav:BJ22" href="https://www.paypal.com/in/cgi-bin/webscr?cmd=_products-services-outside&amp;nav=3">Products</A></LI></UL></DIV>
+<SCRIPT type="text/javascript">    if (typeof PAYPAL != 'undefined') { PAYPAL.core.Navigation.init(); }</SCRIPT>
+</DIV>
+
+</BODY></HTML>
+
+
+

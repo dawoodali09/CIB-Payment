@@ -1,0 +1,16 @@
+﻿Imports Controller.Controller.Validate
+
+Partial Class SignUpNew
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    End Sub
+
+    Protected Sub btnCreateAcc_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnCreateAcc.Click
+        Dim blnIsValidEmail As Boolean = clsValidate.IsEmail(Request("email").ToString())
+
+        Server.Transfer("SignUpMessage.aspx")
+    End Sub
+
+End Class

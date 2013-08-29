@@ -1,0 +1,246 @@
+body {
+	background: rgb(255, 255, 255); font: 75%/1.2em Arial, sans-serif; margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+h1 {
+	color: rgb(0, 0, 0) !important; line-height: 1em;
+}
+h2 {
+	color: rgb(0, 0, 0) !important; line-height: 1em;
+}
+h3 {
+	color: rgb(0, 0, 0) !important; line-height: 1em;
+}
+h4 {
+	color: rgb(0, 0, 0) !important; line-height: 1em;
+}
+h1 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 1.33em;
+}
+h3 {
+	font-size: 1.16em;
+}
+h4 {
+	font-size: 1em;
+}
+a {
+	color: rgb(0, 51, 255); text-decoration: underline !important;
+}
+a img {
+	border: 0px currentColor;
+}
+p {
+	margin: 1em 0px;
+}
+ul {
+	margin: 1em 0px; padding: 0px;
+}
+ol {
+	margin: 1em 0px; padding: 0px;
+}
+dl {
+	margin: 1em 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px 0px 0px 1.7em;
+}
+dd {
+	margin: 0px 0px 0px 1.7em;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+dfn {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+code {
+	font: 1em/normal "Courier New", Courier, monospace; font-size-adjust: none; font-stretch: normal;
+}
+kbd {
+	font: 1em/normal "Courier New", Courier, monospace; font-size-adjust: none; font-stretch: normal;
+}
+samp {
+	font: 1em/normal "Courier New", Courier, monospace; font-size-adjust: none; font-stretch: normal;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+cite {
+	font-style: normal;
+}
+cite span {
+	display: block;
+}
+abbr {
+	border: currentColor; color: rgb(51, 51, 51); text-decoration: underline; cursor: pointer;
+}
+acronym {
+	border: currentColor; color: rgb(51, 51, 51); text-decoration: underline; cursor: pointer;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+legend {
+	padding: 0px; font-weight: bold;
+}
+label {
+	display: block;
+}
+input {
+	font: 1.1em/normal Arial, Helvetica, sans-serif; border: 1px solid rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 1.1em/normal Arial, Helvetica, sans-serif; border: 1px solid rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 1.1em/normal Arial, Helvetica, sans-serif; border: 1px solid rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+input {
+	padding: 2px;
+}
+textarea {
+	padding: 2px;
+}
+input[type=checkbox] {
+	border: currentColor;
+}
+input.checkbox {
+	border: currentColor;
+}
+input[type=radio] {
+	border: currentColor;
+}
+input.radio {
+	border: currentColor;
+}
+button {
+	background: rgb(238, 238, 238); border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(153, 153, 153) rgb(153, 153, 153) rgb(187, 187, 187); width: auto !important; color: rgb(0, 0, 0);
+}
+input.button {
+	background: rgb(238, 238, 238); border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(153, 153, 153) rgb(153, 153, 153) rgb(187, 187, 187); width: auto !important; color: rgb(0, 0, 0);
+}
+button.primary {
+	background-image: none; background-color: rgb(255, 168, 34);
+}
+input.primary.button {
+	background-image: none; background-color: rgb(255, 168, 34);
+}
+table {
+	border: 1px solid rgb(0, 0, 0) !important; width: 98%; border-collapse: collapse !important;
+}
+table th {
+	padding: 5px; border-bottom-color: rgb(153, 153, 153) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; border-collapse: collapse;
+}
+table td {
+	padding: 5px; border-bottom-color: rgb(153, 153, 153) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important; border-collapse: collapse;
+}
+.review table th {
+	text-align: right; padding-right: 5px;
+}
+#navFull {
+	display: none;
+}
+#navPrimary * {
+	background-image: none !important;
+}
+#navPrimary ul {
+	margin: 0px 0px 1em; padding: 0px;
+}
+#navPrimary ul li {
+	display: none;
+}
+#navPrimary ul li.active {
+	margin: 0px; padding: 0px; display: inline;
+}
+#navPrimary ul li.active a {
+	color: rgb(153, 153, 153); text-decoration: none !important;
+}
+#navPrimary ul li.active a::after {
+	content: " > ";
+}
+#navPrimary ul ul {
+	display: inline;
+}
+#navPrimary ul li.active ul li {
+	display: none;
+}
+#navPrimary ul li.active ul li.active {
+	padding-left: 0.5em; display: inline;
+}
+#navPrimary ul li.active ul li.active a {
+	color: rgb(0, 0, 0); font-size: 1.16em;
+}
+#navPrimary ul li.active ul li.active a::after {
+	content: "";
+}
+#navPrimary ul ul ul {
+	display: none;
+}
+#page .sideposleft#content #main {
+	float: none;
+}
+#page .sideposright#content #main {
+	float: none;
+}
+#page .sideposleft#content #sidebar {
+	float: none;
+}
+#page .sideposright#content #sidebar {
+	float: none;
+}
+div.messageBox {
+	padding: 0px 12px; font-weight: bold; background-image: none !important; background-color: rgb(255, 255, 255) !important;
+}
+div.messageBox ul {
+	left: 0px; top: 0px; width: auto; height: auto; line-height: 1em; text-indent: 0px; overflow: visible; position: relative;
+}
+.legacyErrors div.messageBox ul {
+	left: 0px; top: 0px; width: auto; height: auto; line-height: 1em; text-indent: 0px; overflow: visible; position: relative;
+}
+.doNotPrint {
+	display: none;
+}
+.accessAid {
+	display: none;
+}
+.balloonCallout {
+	display: none;
+}
+.balloon {
+	display: none;
+}
+#navGlobal {
+	display: none;
+}
+#searchForm {
+	display: none;
+}
+#rosetta {
+	display: none;
+}
+#footer * {
+	display: none;
+}
+.cont {
+	background-image: none !important; background-color: rgb(255, 255, 255) !important;
+}
+#footer #legal {
+	display: block;
+}
+#footer #legal * {
+	display: block;
+}

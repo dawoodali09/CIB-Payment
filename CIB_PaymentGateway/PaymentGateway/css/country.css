@@ -1,0 +1,6 @@
+.outside #content .main .zone #hero p {
+	margin: -34px 0px 0px 450px;
+}
+.outside #content .main .zone #hero img.getstarted {
+	width: auto; padding-bottom: 10px;
+}
