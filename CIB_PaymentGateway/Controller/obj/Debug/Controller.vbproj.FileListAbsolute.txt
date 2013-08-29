@@ -35,3 +35,10 @@ D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\DAL.
 D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\ResolveAssemblyReference.cache
 D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\Controller.dll
 D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\Controller.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Controller.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Controller.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\DAL.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\DAL.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\obj\Debug\Controller.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\obj\Debug\Controller.pdb
