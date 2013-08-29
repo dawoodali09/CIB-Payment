@@ -2,7 +2,7 @@
 Imports Controller.Controller
 '''Imports BLL
 
-
+'' comments by naresh...
 
 Partial Class Login
     Inherits System.Web.UI.Page
