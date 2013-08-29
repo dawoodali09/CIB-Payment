@@ -9,7 +9,7 @@ Imports System
 
 Public Class clsDAL
     'SQL Connection string 
-    Shared ConnectionString As String = "Data Source=CIBFINANCE-PC\CIBFINANCE;Initial Catalog=CIB;Integrated Security=True; User ID=CIBUSER;pwd=cibuser123;" 'ConfigurationManager.AppSettings("LocalConnection").ToString()
+    Shared ConnectionString As String = "Data Source=cibdbuser.db.11702767.hostedresource.com;Initial Catalog=cibdbuser;Persist Security Info=True;User ID=cibdbuser; pwd=CIBdb123!;" '' ConfigurationManager.AppSettings("LocalConnection").ToString()
 
 #Region "Insert User Details"
 
