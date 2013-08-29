@@ -34,3 +34,12 @@ D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\BLL\bin\Debug\
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\BLL\obj\Debug\ResolveAssemblyReference.cache
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\BLL\obj\Debug\BLL.dll
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\BLL\obj\Debug\BLL.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\BLL.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\BLL.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\Controller.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\DAL.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\Controller.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\DAL.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\BLL.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\BLL.pdb

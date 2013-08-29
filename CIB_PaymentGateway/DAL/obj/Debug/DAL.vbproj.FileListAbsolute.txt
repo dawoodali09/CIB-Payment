@@ -28,3 +28,9 @@ D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\DAL\bin\Debug\
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\DAL\obj\Debug\ResolveAssemblyReference.cache
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\DAL\obj\Debug\DAL.dll
 D:\NUTHALAPATI\14072013\CIB_PaymentGateway (1)\CIB_PaymentGateway\DAL\obj\Debug\DAL.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\bin\Debug\DAL.dll.config
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\bin\Debug\DAL.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\bin\Debug\DAL.pdb
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\obj\Debug\DAL.dll
+D:\NUTHALAPATI\14072013\CIB-Payment\CIB_PaymentGateway\DAL\obj\Debug\DAL.pdb
