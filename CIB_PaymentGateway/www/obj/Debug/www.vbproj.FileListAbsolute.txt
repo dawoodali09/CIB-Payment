@@ -33,3 +33,7 @@ D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\www\obj\Debug\www.
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\www\bin\Model.dll
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\www\bin\Model.pdb
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\www\bin\Model.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\Model.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\Model.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\Model.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\MerchantBLL.vb

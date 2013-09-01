@@ -52,3 +52,7 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\Cont
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.dll
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.pdb
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\Model.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\Model.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\Model.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\MerchantBLL.vb

@@ -120,8 +120,6 @@ Public NotInheritable Class DataAccess
 
     Public Overloads Shared Function SendReaderWithSP(ByVal EmailAdress As String) As SqlDataReader
 
-        
-
         Dim con As New SqlConnection(ConString)
         Dim dr As SqlDataReader
         con.Open()
