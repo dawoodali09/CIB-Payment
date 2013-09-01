@@ -1,0 +1,10 @@
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\bin\PIS.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\bin\PIS.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\bin\PIS.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.Resources.resources
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.pdb

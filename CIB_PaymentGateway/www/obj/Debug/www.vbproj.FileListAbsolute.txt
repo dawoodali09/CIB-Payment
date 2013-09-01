@@ -1,0 +1,16 @@
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\www.Resources.resources
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\www.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\www.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\www.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\BLL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\Controller.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\DAL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\BLL.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\Controller.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\bin\DAL.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\www.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\www.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\www\obj\Debug\www.pdb

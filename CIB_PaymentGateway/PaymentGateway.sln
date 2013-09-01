@@ -28,6 +28,16 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Controller", "Controller\Co
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Model", "Model\Model.vbproj", "{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "www", "www\www.vbproj", "{02980537-864A-4BC2-952B-7F206ADF452D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MerchantIntegration", "MerchantIntegration\MerchantIntegration.vbproj", "{C1ED48C9-09CB-41D5-9317-83A6A07A7721}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PISAdmin", "PIS\PISAdmin.vbproj", "{9152DD0C-C672-45B8-85AF-8CFF82B34A16}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Payment", "Payment\Payment.vbproj", "{09797ABF-1312-4E2B-B82C-5556B00760AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +60,26 @@ Global
 		{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02980537-864A-4BC2-952B-7F206ADF452D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02980537-864A-4BC2-952B-7F206ADF452D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02980537-864A-4BC2-952B-7F206ADF452D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02980537-864A-4BC2-952B-7F206ADF452D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152DD0C-C672-45B8-85AF-8CFF82B34A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152DD0C-C672-45B8-85AF-8CFF82B34A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152DD0C-C672-45B8-85AF-8CFF82B34A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152DD0C-C672-45B8-85AF-8CFF82B34A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09797ABF-1312-4E2B-B82C-5556B00760AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09797ABF-1312-4E2B-B82C-5556B00760AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09797ABF-1312-4E2B-B82C-5556B00760AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09797ABF-1312-4E2B-B82C-5556B00760AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

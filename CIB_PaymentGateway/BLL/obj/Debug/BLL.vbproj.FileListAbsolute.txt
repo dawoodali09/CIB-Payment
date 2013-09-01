@@ -52,3 +52,12 @@ D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\BLL\bin\Debug\DAL.
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\BLL\obj\Debug\ResolveAssemblyReference.cache
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\BLL\obj\Debug\BLL.dll
 D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\BLL\obj\Debug\BLL.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\BLL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\BLL.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\Controller.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\DAL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\Controller.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\bin\Debug\DAL.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\BLL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\BLL\obj\Debug\BLL.pdb

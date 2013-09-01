@@ -1,0 +1,10 @@
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.Resources.resources
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.pdb
