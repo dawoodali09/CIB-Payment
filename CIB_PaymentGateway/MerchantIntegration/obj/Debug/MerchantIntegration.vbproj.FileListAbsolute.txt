@@ -8,3 +8,13 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\D
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.dll
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.xml
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\bin\MerchantIntegration.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.Resources.resources
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\GenerateResource.read.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\GenerateResource.write.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\MerchantIntegration\obj\Debug\MerchantIntegration.pdb

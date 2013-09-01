@@ -49,3 +49,6 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\bin\Debug\DAL.
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\Controller.dll
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Controller\obj\Debug\Controller.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Controller\bin\Debug\Model.xml

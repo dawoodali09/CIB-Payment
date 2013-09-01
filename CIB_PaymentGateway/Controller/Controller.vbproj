@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="clsContract.vb" />
     <Compile Include="ControlEngine.vb" />
+    <Compile Include="MerchantBLL.vb" />
     <Compile Include="Properties\AssemblyInfo.vb" />
     <Compile Include="SessionManager.vb" />
   </ItemGroup>
@@ -90,6 +91,10 @@
     <ProjectReference Include="..\DAL\DAL.vbproj">
       <Project>{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.vbproj">
+      <Project>{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}</Project>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

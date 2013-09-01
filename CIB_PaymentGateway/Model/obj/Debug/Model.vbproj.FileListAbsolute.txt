@@ -8,3 +8,13 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Model\obj\Debug\GenerateR
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Model\obj\Debug\Model.dll
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Model\obj\Debug\Model.xml
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\Model\obj\Debug\Model.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\bin\Debug\Model.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\bin\Debug\Model.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\bin\Debug\Model.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\Model.Resources.resources
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\GenerateResource.read.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\GenerateResource.write.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\Model.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\Model.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\Model\obj\Debug\Model.pdb

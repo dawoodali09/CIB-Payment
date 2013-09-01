@@ -8,3 +8,13 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\GenerateRes
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.dll
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.xml
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PIS\obj\Debug\PIS.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\bin\PIS.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\bin\PIS.pdb
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\bin\PIS.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\ResolveAssemblyReference.cache
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\PIS.Resources.resources
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\GenerateResource.read.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\GenerateResource.write.1.tlog
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\PIS.dll
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\PIS.xml
+D:\NUTHALAPATI\14072013\CIB-PaymentGateway\CIB_PaymentGateway\PIS\obj\Debug\PIS.pdb

@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaymentGateway", "PaymentGateway\", "{5CD8591F-C929-4CFD-9173-BA72AA30E9BD}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{DE6C1B32-ED72-482E-971A-CDEDDC5F3C09}|Controller.dll;{7A5567E4-D7F1-46E3-B553-FAF8BB280FC5}|BLL.dll;{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}|DAL.dll;"
+		ProjectReferences = "{DE6C1B32-ED72-482E-971A-CDEDDC5F3C09}|Controller.dll;{7A5567E4-D7F1-46E3-B553-FAF8BB280FC5}|BLL.dll;{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}|DAL.dll;{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}|Model.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/PaymentGateway"
 		Debug.AspNetCompiler.PhysicalPath = "PaymentGateway\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PaymentGateway\"
