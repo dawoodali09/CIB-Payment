@@ -21,7 +21,7 @@ Public Class SystemUserBLL
 
         Dim objData As DataObject = DBConnect.ExecuteReader(DBConnections.PIS, "CIB_SYSTEMUSERS_GetByID", parms, True)
         If (objData.Rows.Count > 0) Then
-            obj = Populate(objData.Rows(objData.Rows.Count))
+            obj = Populate(objData.Rows(objData.Rows.Count - 1))
         End If
 
         Return obj
@@ -58,7 +58,7 @@ Public Class SystemUserBLL
         DBConnect.ExecuteNonQuery(DBConnections.PIS, "CIB_SYSTEMUSERS_INSERT", parms, True)
     End Sub
 
-    Public Sub Update(ByVal systemuser As SystemUser)
+    Public Shared Sub Update(ByVal systemuser As SystemUser)
         Dim parms As New Hashtable()
         With systemuser
             parms.Add("FirstName", .FirstName)

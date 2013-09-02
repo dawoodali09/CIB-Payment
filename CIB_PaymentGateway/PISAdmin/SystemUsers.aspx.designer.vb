@@ -32,6 +32,24 @@ Partial Public Class SystemUsers
     Protected WithEvents topmenu1 As Global.PISAdmin.TopMenu
 
     '''<summary>
+    '''litCaption control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents litCaption As Global.System.Web.UI.WebControls.Literal
+
+    '''<summary>
+    '''lbtn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbtn As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
     '''gv control.
     '''</summary>
     '''<remarks>
@@ -39,6 +57,15 @@ Partial Public Class SystemUsers
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents gv As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''divAddEdit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents divAddEdit As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''txtTitle control.

@@ -119,9 +119,33 @@ topmenu1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:PISAdmin.SystemUsers.litCaption">
+	<summary>
+litCaption control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PISAdmin.SystemUsers.lbtn">
+	<summary>
+lbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:PISAdmin.SystemUsers.gv">
 	<summary>
 gv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PISAdmin.SystemUsers.divAddEdit">
+	<summary>
+divAddEdit control.
 </summary>
 	<remarks>
 Auto-generated field.

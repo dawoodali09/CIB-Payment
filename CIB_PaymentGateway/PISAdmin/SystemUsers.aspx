@@ -21,14 +21,73 @@
 	            <uc1:topmenu ID="topmenu1" runat="server" />
 	            <br />
             </div>
-            <asp:GridView ID="gv" runat="server">
-    </asp:GridView>
-            <table  border="0" cellspacing="0" cellpadding="4">
+
+            <table width="100%" border=" 0" cellspacing="0" cellpadding="5">
   <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+    <td align="left" valign="top" nowrap>
+        <b><asp:Literal ID="litCaption" runat="server" Text="System Users"></asp:Literal></b>
+      </td>
+    <td align="center" valign="middle">&nbsp;</td>
+    <td align="right" valign="top" nowrap>
+        <asp:LinkButton ID="lbtn" runat="server">ADD</asp:LinkButton>
+      </td>
   </tr>
+  <tr>
+    <td colspan="3" align="center">
+
+
+
+            <asp:GridView ID="gv" runat="server" AutoGenerateColumns="False" 
+                CellPadding="4" ForeColor="#333333" GridLines="None" Width="100%">
+                <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+                <Columns>
+                    <asp:TemplateField HeaderText="Name">
+                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                        <ItemTemplate>
+                            <%# GetName(Eval("ID").ToString()) %>
+                        </ItemTemplate>
+                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    </asp:TemplateField>
+                    <asp:BoundField DataField="Title" HeaderText="Title">
+                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="EmailAddress" HeaderText="Email">
+                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="UserLevel" HeaderText="User Level">
+                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    </asp:BoundField>
+                    <asp:BoundField DataField="CIBEmployeeID" HeaderText="EmployeeID">
+                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                    </asp:BoundField>
+                    <asp:TemplateField HeaderText="Edit  Delete">
+                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" />
+                        <ItemTemplate>
+                            <asp:LinkButton ID="lbtEdit" runat="server" Text="edit" CommandName="editrecord" CommandArgument=<%# EVal("ID") %> ></asp:LinkButton>
+                            &nbsp;&nbsp;
+                            <asp:LinkButton ID="lbtnDelete" runat="server" Text="delete" CommandName="deleterecord" CommandArgument=<%# EVal("ID") %> ></asp:LinkButton>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                </Columns>
+                <EditRowStyle BackColor="#999999" />
+                <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+                <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+                <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+                <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+                <SortedAscendingCellStyle BackColor="#E9E7E2" />
+                <SortedAscendingHeaderStyle BackColor="#506C8C" />
+                <SortedDescendingCellStyle BackColor="#FFFDF8" />
+                <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+    </asp:GridView>
+
+    <div id="divAddEdit" runat="server" visible="false" >
+           <table  border="0" cellspacing="0" cellpadding="4">
   <tr>
     <td align="right" valign="top"><div align="right">Title</div></td>
     <td align="left" valign="top"><div align="left">
@@ -105,6 +164,20 @@
     <td>&nbsp;</td>
   </tr>
 </table>
+    
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+
+     
     </form>
 </body>
 </html>
