@@ -97,7 +97,7 @@ Namespace Controller
             Finally
 
             End Try
-            Return currSession
+
         End Function
 
         Public Function InsertUserDetails(ByVal objUserDetails As clsContract) As Integer

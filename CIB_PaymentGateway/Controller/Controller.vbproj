@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.vb" />
     <Compile Include="SessionManager.vb" />
+    <Compile Include="SystemUserBLL.vb" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

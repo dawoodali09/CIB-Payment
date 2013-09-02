@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="clsDAL.vb" />
     <Compile Include="DataAccess.vb.vb" />
+    <Compile Include="DataObject.vb" />
+    <Compile Include="DBConnect.vb" />
     <Compile Include="Properties\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
