@@ -18,3 +18,11 @@ C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\obj\Debug\Genera
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\obj\Debug\PISAdmin.dll
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\obj\Debug\PISAdmin.xml
 C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\obj\Debug\PISAdmin.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\MerchantBLL.vb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\Controller.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\Model.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\DAL.dll
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\Controller.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\Model.pdb
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\Model.xml
+C:\Users\Dawood\Desktop\CIB-Payment\CIB_PaymentGateway\PISAdmin\bin\DAL.pdb

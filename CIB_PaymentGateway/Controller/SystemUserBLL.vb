@@ -13,7 +13,7 @@ End Class
 Public Class SystemUserBLL
 
 #Region "Data Fetching Regions"
-    Public Function GetByID(ByVal ID As String) As SystemUser
+    Public Shared Function GetByID(ByVal ID As String) As SystemUser
 
         Dim parms As New Hashtable()
         parms.Add("ID", ID)
@@ -28,10 +28,10 @@ Public Class SystemUserBLL
     End Function
 
 
-    Public Function List() As IList(Of SystemUser)
+    Public Shared Function List() As IList(Of SystemUser)
         Dim parms As New Hashtable()
         Dim SystemUsersList As IList(Of SystemUser) = New List(Of SystemUser)()
-        Dim objData As DataObject = DBConnect.ExecuteReader(DBConnections.PIS, "CIB_SYSTEMUSERS_GetByID", parms, True)
+        Dim objData As DataObject = DBConnect.ExecuteReader(DBConnections.PIS, "CIB_SYSTEMUSERS_List", parms, True)
         If (objData.Rows.Count > 0) Then
             For Each Row As DAL.DataObjectRow In objData.Rows
                 SystemUsersList.Add(Populate(Row))
@@ -42,7 +42,38 @@ Public Class SystemUserBLL
 #End Region
 
 #Region "Basic Data Operations"
+    Public Shared Sub Insert(ByVal systemuser As SystemUser)
+        Dim parms As New Hashtable()
+        With systemuser
+            parms.Add("FirstName", .FirstName)
+            parms.Add("LastName", .LastName)
+            parms.Add("EmailAddress", .EmailAddress)
+            parms.Add("Password", .Password)
+            parms.Add("UserLevel", .UserLevel)
+            parms.Add("Comment", .Comment)
+            parms.Add("CIBEmployeeID", .CIBEmployeeID)
+            parms.Add("SignatureURL", .SignatureURL)
+            parms.Add("Title", .Title)
+        End With
+        DBConnect.ExecuteNonQuery(DBConnections.PIS, "CIB_SYSTEMUSERS_INSERT", parms, True)
+    End Sub
 
+    Public Sub Update(ByVal systemuser As SystemUser)
+        Dim parms As New Hashtable()
+        With systemuser
+            parms.Add("FirstName", .FirstName)
+            parms.Add("LastName", .LastName)
+            parms.Add("EmailAddress", .EmailAddress)
+            parms.Add("Password", .Password)
+            parms.Add("UserLevel", .UserLevel)
+            parms.Add("Comment", .Comment)
+            parms.Add("CIBEmployeeID", .CIBEmployeeID)
+            parms.Add("SignatureURL", .SignatureURL)
+            parms.Add("Title", .Title)
+            parms.Add("ID", .ID)
+        End With
+        DBConnect.ExecuteNonQuery(DBConnections.PIS, "CIB_SYSTEMUSERS_UPDATE", parms, True)
+    End Sub
 #End Region
 
 #Region "Private Methode Region"

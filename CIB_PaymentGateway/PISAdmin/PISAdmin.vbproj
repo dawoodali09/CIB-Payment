@@ -488,6 +488,7 @@
     <Content Include="style.css" />
     <Content Include="stylesheets\jquery.validate.css" />
     <Content Include="stylesheets\style.css" />
+    <Content Include="SystemUsers.aspx" />
     <Content Include="TopMenu.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -531,6 +532,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SystemUsers.aspx.designer.vb">
+      <DependentUpon>SystemUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SystemUsers.aspx.vb">
+      <DependentUpon>SystemUsers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="TopMenu.ascx.designer.vb">
       <DependentUpon>TopMenu.ascx</DependentUpon>
@@ -606,6 +614,16 @@
     <Folder Include="stylesheets\.svn\tmp\prop-base\" />
     <Folder Include="stylesheets\.svn\tmp\props\" />
     <Folder Include="stylesheets\.svn\tmp\text-base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.vbproj">
+      <Project>{DE6C1B32-ED72-482E-971A-CDEDDC5F3C09}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.vbproj">
+      <Project>{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

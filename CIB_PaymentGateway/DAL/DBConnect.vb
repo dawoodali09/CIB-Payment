@@ -234,7 +234,8 @@ Public Class DBConnect
         Dim ConnStr As String = ""
         Select Case ConnectionString
             Case DBConnections.PIS
-                ConnStr = ConfigurationManager.ConnectionStrings("PointPayConnection").ConnectionString
+                ''ConnStr = ConfigurationManager.ConnectionStrings("PointPayConnection").ConnectionString
+                ConnStr = "Data Source=cibdbuser.db.11702767.hostedresource.com;Initial Catalog=cibdbuser;Persist Security Info=True;User ID=cibdbuser; pwd=CIBdb123!;"
                 Exit Select
             Case DBConnections.PaynShareSupport
                 ConnStr = ConfigurationManager.ConnectionStrings("PISConnection").ConnectionString

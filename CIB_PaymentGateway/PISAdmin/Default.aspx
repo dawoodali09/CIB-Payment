@@ -6,19 +6,13 @@
     <head id="Head1" runat="server">
         <title>PIS</title>
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <style type="text/css">
-            .style1
-            {
-                width: 858px;
-            }
-        </style>
         <script language="javascript" type="text/javascript" >
             function popup(theURL, winName, features) {
                 window.open(theURL, winName, features);
             }
         </script>
         <script type="text/javascript" src="Scripts/jquery-1.5.2.min.js"></script>
-        <link href="style.css" rel="stylesheet" type="text/css"> 
+        <link href="style.css" rel="stylesheet" type="text/css" /> 
     </head>
     <body>
         <script type="text/javascript">
@@ -39,7 +33,9 @@
             <div>
                 <h3>PIS: Payments</h3>
 	            <uc1:topmenu ID="topmenu1" runat="server" />
-	            <br /><br />
+	            <br />
+                <br />
+                Start Page.. Later We Will implement this page.<br />
             </div>
 	       
  

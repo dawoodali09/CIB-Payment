@@ -5,7 +5,7 @@
 <asp:ScriptManager ID="ScriptManager2" runat="server">
 </asp:ScriptManager>
 
-<div id="divAdmin" runat="server" visible="false">
+<div id="divAdmin" runat="server" visible="true">
     <ul id="nav">
 	    <li class="top"><a href="Startpage.aspx" class="top_link"><span>Startpage</span></a></li>
 	    <li class="top"><a href="Default.aspx" id="products" class="top_link"><span class="down">Overview</span></a>
@@ -53,20 +53,11 @@
                 <li><a href="cbReport.aspx">Report</a></li>                
             </ul>        
         </li>
-          <li class="top"><a href="VIPNewSubscriptions.aspx"  id="accounts" class="top_link"><span class="down">Accounting</span></a>
-            <ul class="sub">
-			    <li><a href="VIPNewSubscriptions.aspx">VIP Statistics</a></li>
-                 <li><a href="PointDealTurnoverVIP.aspx">Turnover</a></li>
-                 <li><a href="PointDealVIPConversion.aspx">VIPConversion</a></li>
-                 <li><a href="PointDealVIPNewSubscriptions.aspx">NewSubscription</a></li>
-                 <li><a href="PointDealActiveAndUnsubscribed.aspx">ActiveSubscription</a></li>
-            </ul>
-          </li>
 	    <li class="top"><a href="ListTranslations.aspx" id="A3" class="top_link"><span class="down">Administration</span></a>
             <ul class="sub">
 			    <li><a href="ListTranslations.aspx">Translations</a></li>
                 <li><a href="ListFAQCategories.aspx">FAQ</a></li>
-                <li><a href="AddEditUsers.aspx">User logins</a></li>
+                <li><a href="SystemUsers.aspx">User logins</a></li>
                 <li><a href="GetSubscriptionDocumentation.aspx">CB/CR</a></li>
 		    </ul>
         </li>

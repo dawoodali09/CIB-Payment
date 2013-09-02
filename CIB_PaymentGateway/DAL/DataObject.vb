@@ -81,7 +81,7 @@ Public Class DataObjectRow
         While counter < _fields.Count
             If _fields(counter).ToString().ToLowerInvariant() = lowerKey Then
                 If _values(counter) IsNot Nothing Then
-                    If _values(counter).ToString() <> DBNull.Value.ToString() Then
+                    If Not DBNull.Value.Equals(_values(counter)) Then
                         Return True
                     End If
                 End If
