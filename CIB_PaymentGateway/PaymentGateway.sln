@@ -9,13 +9,13 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DAL", "DAL\DAL.vbproj", "{1
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Model", "Model\Model.vbproj", "{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "www", "www\www.vbproj", "{02980537-864A-4BC2-952B-7F206ADF452D}"
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MerchantIntegration", "MerchantIntegration\MerchantIntegration.vbproj", "{C1ED48C9-09CB-41D5-9317-83A6A07A7721}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Payment", "Payment\Payment.vbproj", "{09797ABF-1312-4E2B-B82C-5556B00760AB}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PISAdmin", "PISAdmin\PISAdmin.vbproj", "{A49F43FB-B46C-447D-91E7-3CE2E6CA5BF3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "www", "www\www.vbproj", "{C1C6AC3C-8E19-476F-9A11-10FC6D240308}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -41,12 +41,12 @@ Global
 		SccProjectUniqueName6 = Payment\\Payment.vbproj
 		SccProjectName6 = Payment
 		SccLocalPath6 = Payment
-		SccProjectUniqueName7 = www\\www.vbproj
-		SccProjectName7 = www
-		SccLocalPath7 = www
-		SccProjectUniqueName8 = PISAdmin\\PISAdmin.vbproj
-		SccProjectName8 = PISAdmin
-		SccLocalPath8 = PISAdmin
+		SccProjectUniqueName7 = PISAdmin\\PISAdmin.vbproj
+		SccProjectName7 = PISAdmin
+		SccLocalPath7 = PISAdmin
+		SccProjectUniqueName8 = www\\www.vbproj
+		SccProjectName8 = www
+		SccLocalPath8 = www
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,10 +69,6 @@ Global
 		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{868C57F5-EC98-4F25-B3ED-B5ABF1DC2E21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02980537-864A-4BC2-952B-7F206ADF452D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02980537-864A-4BC2-952B-7F206ADF452D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02980537-864A-4BC2-952B-7F206ADF452D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02980537-864A-4BC2-952B-7F206ADF452D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1ED48C9-09CB-41D5-9317-83A6A07A7721}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -85,6 +81,10 @@ Global
 		{A49F43FB-B46C-447D-91E7-3CE2E6CA5BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49F43FB-B46C-447D-91E7-3CE2E6CA5BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49F43FB-B46C-447D-91E7-3CE2E6CA5BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C6AC3C-8E19-476F-9A11-10FC6D240308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C6AC3C-8E19-476F-9A11-10FC6D240308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C6AC3C-8E19-476F-9A11-10FC6D240308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C6AC3C-8E19-476F-9A11-10FC6D240308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

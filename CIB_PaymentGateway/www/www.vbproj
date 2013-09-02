@@ -7,7 +7,7 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{02980537-864A-4BC2-952B-7F206ADF452D}</ProjectGuid>
+    <ProjectGuid>{C1C6AC3C-8E19-476F-9A11-10FC6D240308}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>www</RootNamespace>
@@ -58,14 +58,14 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -91,6 +91,151 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="css\a28837097160c3d95d654741539edc.css" />
+    <Content Include="css\country.css" />
+    <Content Include="css\f7c57a94c9812c70c53816d366807e.css" />
+    <Content Include="css\flowConsumerOnboarding.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\passwordMeter.css" />
+    <Content Include="css\print.css" />
+    <Content Include="displayInfoMessage.aspx" />
+    <Content Include="images\3484-16283-2054-72.gif" />
+    <Content Include="images\amex.gif" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner_login.png" />
+    <Content Include="images\border_bottom_shadow.png" />
+    <Content Include="images\briefcase-icon.png" />
+    <Content Include="images\company-building-icon.png" />
+    <Content Include="images\discover.gif" />
+    <Content Include="images\icon_IN_22x14.gif" />
+    <Content Include="images\leftknob.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mastercard.gif" />
+    <Content Include="images\paypal_logo.gif" />
+    <Content Include="images\pie-chart-icon.png" />
+    <Content Include="images\scr_card_223x138.jpg" />
+    <Content Include="images\visa.gif" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquerycssmenu.js" />
+    <Content Include="js\menu.js" />
+    <Content Include="landing\contactus.html" />
+    <Content Include="landing\footer.html" />
+    <Content Include="landing\FooterPage.aspx" />
+    <Content Include="landing\landing.html" />
+    <Content Include="landing\MainFrame.html" />
+    <Content Include="landing\MainPage.aspx" />
+    <Content Include="landing\myaccounthome.html" />
+    <Content Include="landing\support.htm" />
+    <Content Include="Login.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="NewPasswordPage.aspx" />
+    <Content Include="Payments\PayMannual.aspx" />
+    <Content Include="signupconfirmation.aspx" />
+    <Content Include="Styles\CIB_Global.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="usersignup.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="displayInfoMessage.aspx.designer.vb">
+      <DependentUpon>displayInfoMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="displayInfoMessage.aspx.vb">
+      <DependentUpon>displayInfoMessage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="landing\FooterPage.aspx.designer.vb">
+      <DependentUpon>FooterPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="landing\FooterPage.aspx.vb">
+      <DependentUpon>FooterPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="landing\MainPage.aspx.designer.vb">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="landing\MainPage.aspx.vb">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.vb">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -110,6 +255,48 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NewPasswordPage.aspx.designer.vb">
+      <DependentUpon>NewPasswordPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewPasswordPage.aspx.vb">
+      <DependentUpon>NewPasswordPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Payments\PayMannual.aspx.designer.vb">
+      <DependentUpon>PayMannual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payments\PayMannual.aspx.vb">
+      <DependentUpon>PayMannual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupconfirmation.aspx.designer.vb">
+      <DependentUpon>signupconfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupconfirmation.aspx.vb">
+      <DependentUpon>signupconfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usersignup.aspx.designer.vb">
+      <DependentUpon>usersignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="usersignup.aspx.vb">
+      <DependentUpon>usersignup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -120,6 +307,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <None Include="images\Thumbs.db" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -129,20 +318,15 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Web.config" />
+    <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BLL\BLL.vbproj">
-      <Project>{7A5567E4-D7F1-46E3-B553-FAF8BB280FC5}</Project>
-      <Name>BLL</Name>
-    </ProjectReference>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Controller\Controller.vbproj">
       <Project>{DE6C1B32-ED72-482E-971A-CDEDDC5F3C09}</Project>
       <Name>Controller</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DAL\DAL.vbproj">
-      <Project>{180A9ED4-9070-4E4F-9F58-58FC7BACE24A}</Project>
-      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
@@ -153,7 +337,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3439</DevelopmentServerPort>
+          <DevelopmentServerPort>5247</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

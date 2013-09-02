@@ -9,15 +9,15 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 <Assembly: AssemblyTitle("www")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("Hewlett-Packard")> 
+<Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("www")> 
-<Assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2013")> 
+<Assembly: AssemblyCopyright("Copyright ©  2013")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("e74db400-548d-4649-83df-7c2ef5a13780")> 
+<Assembly: Guid("cd7b5e2d-06f7-4cf2-b3fc-e24dcc3a6660")> 
 
 ' Version information for an assembly consists of the following four values:
 '
