@@ -68,6 +68,25 @@ This is a payment gateway system using a classic N-tier architecture:
 | **DAL** | Class Library | Data access layer with `DBConnect` and `clsDAL` |
 | **Model** | Class Library | Entity classes (`MERCHANTS`, `SystemUser`) |
 
+### Project Dependencies
+
+```
+www ──────────────► Controller ──► DAL
+PISAdmin ─────────► Controller ──► Model
+MerchantIntegration (standalone WCF service)
+Payment (standalone)
+BLL (standalone)
+```
+
+### Development Server Ports (Visual Studio)
+
+| Project | Port |
+|---------|------|
+| www | 5247 |
+| PISAdmin | 2988 |
+| Payment | 3450 |
+| MerchantIntegration | 3445 |
+
 ### Key Classes
 
 - `DAL/DBConnect.vb` - Database connection wrapper with `ExecuteReader`, `ExecuteScalar`, `ExecuteNonQuery` methods
