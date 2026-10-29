@@ -6,7 +6,7 @@ Imports System.Collections
 
 Public NotInheritable Class DataAccess
 
-    Public Shared ConString As String = "Data Source=cibdbuser.db.11702767.hostedresource.com;Initial Catalog=cibdbuser;Persist Security Info=True;User ID=cibdbuser; pwd=CIBdb123!;" '' ConfigurationManager.AppSettings("LocalConnection").ToString() ''''ConfigurationManager.ConnectionStrings("local").ConnectionString
+    Public Shared ConString As String = "Data Source=YOUR_SERVER;Initial Catalog=YOUR_USER;Persist Security Info=True;User ID=YOUR_USER; pwd=YOUR_PASSWORD;" '' ConfigurationManager.AppSettings("LocalConnection").ToString() ''''ConfigurationManager.ConnectionStrings("local").ConnectionString
 
 
 #Region "Data Retrival"

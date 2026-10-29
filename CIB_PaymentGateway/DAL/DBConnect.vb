@@ -235,7 +235,7 @@ Public Class DBConnect
         Select Case ConnectionString
             Case DBConnections.PIS
                 ''ConnStr = ConfigurationManager.ConnectionStrings("PointPayConnection").ConnectionString
-                ConnStr = "Data Source=cibdbuser.db.11702767.hostedresource.com;Initial Catalog=cibdbuser;Persist Security Info=True;User ID=cibdbuser; pwd=CIBdb123!;"
+                ConnStr = "Data Source=YOUR_SERVER;Initial Catalog=YOUR_USER;Persist Security Info=True;User ID=YOUR_USER; pwd=YOUR_PASSWORD;"
                 Exit Select
             Case DBConnections.PaynShareSupport
                 ConnStr = ConfigurationManager.ConnectionStrings("PISConnection").ConnectionString
